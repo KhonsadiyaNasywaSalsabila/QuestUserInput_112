@@ -35,6 +35,9 @@ import com.example.praktikum5.R
 
 @Composable
 fun FormDataDiri(modifier: Modifier = Modifier) {
+    var textNama by remember { mutableStateOf("") }
+    var textAlamat by remember { mutableStateOf("") }
+    var textJK by remember { mutableStateOf("") }
     Column(
         modifier = modifier.padding(top = 50.dp),
         verticalArrangement = Arrangement.Top,

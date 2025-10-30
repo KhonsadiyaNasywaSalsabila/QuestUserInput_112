@@ -99,7 +99,7 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
         )
         Button(
             modifier = Modifier.fillMaxWidth(1f),
-
+            enabled = textAlamat.isNotEmpty(),
             onClick = {
                 nama=textNama
                 jenis=textJK

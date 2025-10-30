@@ -101,6 +101,9 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxWidth(1f),
 
             onClick = {
+                nama=textNama
+                jenis=textJK
+                alamat=textAlamat
 
             }
         ){

@@ -64,5 +64,16 @@ fun FormDataDiri2(modifier: Modifier = Modifier) {
             .padding(horizontal = 16.dp, vertical = 16.dp),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.Start
-    ) {}
+    ) {
+        Text(
+            text = "Formulir Pendaftaran",
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White,
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(purpleHeader, shape = RoundedCornerShape(8.dp))
+                .padding(16.dp)
+        )
+    }
 }

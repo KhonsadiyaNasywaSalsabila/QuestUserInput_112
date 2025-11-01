@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Praktikum5Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    FormDataDiri(
+                    FormDataDiri2(
                         modifier = Modifier.padding(innerPadding)
 
                     )
